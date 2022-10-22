@@ -6,8 +6,9 @@ namespace NegueApp.Components.Terminal
     {
         public record TerminalStore
         {
-            public bool IsSubmitting { get; init; }
-            public object Model { get; init; }
+            public TerminalInput Input { get; init; }
+
+            public TerminalOutput Ouput { get; init; }
         }
 
 
@@ -19,7 +20,8 @@ namespace NegueApp.Components.Terminal
             {
                 return new TerminalStore
                 {
-                    IsSubmitting = false,
+                    Input = new(),
+                    Ouput = new()
                 };
             }
         }
@@ -51,8 +53,7 @@ namespace NegueApp.Components.Terminal
             {
                 return state with
                 {
-                    IsSubmitting = true,
-                    Model = action.Model
+                    
                 };
             }
 
@@ -61,7 +62,7 @@ namespace NegueApp.Components.Terminal
             {
                 return state with
                 {
-                    IsSubmitting = false
+                    
                 };
             }
 
@@ -70,7 +71,7 @@ namespace NegueApp.Components.Terminal
             {
                 return state with
                 {
-                    IsSubmitting = false
+
                 };
             }
         }
