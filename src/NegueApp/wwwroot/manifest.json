@@ -1,6 +1,6 @@
 {
-  "name": "negue-io",
-  "short_name": "negue-io",
+  "name": "NegueApp",
+  "short_name": "NegueApp",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negue-io", "negue-io\negue-io.csproj", "{7F9C9A51-9AC6-47E6-BB45-E36CACB99EEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegueApp", "NegueApp\NegueApp.csproj", "{AA2BF5A1-5252-41B0-A91C-82F1DD6A076B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F9C9A51-9AC6-47E6-BB45-E36CACB99EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F9C9A51-9AC6-47E6-BB45-E36CACB99EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F9C9A51-9AC6-47E6-BB45-E36CACB99EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F9C9A51-9AC6-47E6-BB45-E36CACB99EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2BF5A1-5252-41B0-A91C-82F1DD6A076B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2BF5A1-5252-41B0-A91C-82F1DD6A076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2BF5A1-5252-41B0-A91C-82F1DD6A076B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2BF5A1-5252-41B0-A91C-82F1DD6A076B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+
+@code {
+    protected override Task OnInitializedAsync()
+    {
+        NavManager.NavigateTo("/terminal");
+        return base.OnInitializedAsync();
+    }
+}

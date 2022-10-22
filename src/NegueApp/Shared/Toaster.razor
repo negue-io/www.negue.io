@@ -1,0 +1,32 @@
+﻿@inherits FluxorComponent
+
+@using NegueApp.Components
+@using Fluxor.Blazor.Web.Components
+
+@inject IToastService toastService
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        //SubscribeToAction<ActionWithUIMessages>(action =>
+        //{
+        //    foreach (var m in action.Messages.Where(message => message.MustBeToasted))
+        //    {
+        //        switch (m.Type)
+        //        {
+        //            case UIMessageType.Error:
+        //                toastService.ShowError(m.Message); break;
+        //            case UIMessageType.Infos:
+        //                toastService.ShowInfo(m.Message); break;
+        //            case UIMessageType.Warning:
+        //                toastService.ShowWarning(m.Message); break;
+        //            case UIMessageType.Success:
+        //                toastService.ShowSuccess(m.Message); break;
+        //        }
+        //    }
+        //});
+    }
+}

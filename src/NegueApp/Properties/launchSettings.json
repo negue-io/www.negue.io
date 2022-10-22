@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "negue-io": {
+    "NegueApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
@@ -15,8 +15,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55257",
-      "sslPort": 44383
+      "applicationUrl": "http://localhost:23228",
+      "sslPort": 44334
     }
   }
 }
